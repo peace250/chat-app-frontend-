@@ -55,10 +55,10 @@ left: 1%;
 		background:  #fff;
 }
 .sidebar i{
-	 font-size: 25px;
+	 font-size: 17px;
 }
 .sidebar a {
-  padding-top:45%;
+  padding-top:60%;
   text-decoration: none;
   font-size: 10px;
   color: #f1f1f1;
@@ -192,7 +192,6 @@ transition: all 0.2s ease;
 	outline: none;
 	color: #333;
 	cursor: pointer;
-	background: #fff;
 	border-radius: 0 5px 5px 0;
 	font-size: 17px;
 	transition: all 0.2s ease;
@@ -222,7 +221,7 @@ width: 0;
 	border-bottom-color:#f1f1f1 ;
 }
 .users-list a:hover{
-	background: #f7f7f7;
+	background: #fff;
 
 }
 .users-list a.active{
@@ -252,14 +251,14 @@ margin-bottom: 0px;
 .chat{ 
   height: auto;
   position: fixed;
-	background-color: #fff;
+/*	background-color: #fff;*/
 	width: 45%;
-	box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
-           0 32px 64px -48px rgba(0, 0, 0, 0.5);
+/*	box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+           0 32px 64px -48px rgba(0, 0, 0, 0.5);*/
            float: right;
            right: 0%;
            top: 5%;
-
+display: flex;
 
 }
 
@@ -302,6 +301,7 @@ margin-bottom: 0px;
 .other{
 	display: flex;
 	flex-direction: right;
+	position: fixed;
 }
 
 .phone{
@@ -320,14 +320,6 @@ margin-bottom: 0px;
 	color: white;
 }
 
-/*.video{
-
-position: fixed;
-right: 5%;
-top: 13%;
-border-radius: 50%;
-padding: 15px;
-}*/
 .video svg{
 	position: fixed;
 	margin-top: -3.5%;
@@ -476,11 +468,11 @@ box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
 }
 
 .identity{
-
+d
 margin-top: -40%;
 margin-right: 5%;
 font-size: 20px;
-
+position: fixed;
 padding: 10px;
 border-radius: 50%;
 background-color: #f7f7f7;
@@ -489,6 +481,7 @@ background-color: #f7f7f7;
 margin-right: 6%;
 font-size: 20px;
 margin-top: -40%;
+position: fixed;
 
 padding: 10px;
 border-radius: 50%;
@@ -497,12 +490,12 @@ background-color: #f7f7f7;
 .sach{
 font-size: 20px;
 margin-top: -40%;
+position: fixed;
 
 padding: 10px;
 border-radius: 50%;
 background-color: #f7f7f7;
 }
-
 
 
 
